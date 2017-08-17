@@ -1,0 +1,9 @@
+.jumbotron{
+    background-image: url("http://java.codeup.com/content/examples/bootstrap/pizza.png");
+    background-size: cover;
+}
+
+.page-header {
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
