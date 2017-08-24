@@ -1,0 +1,27 @@
+h1{
+
+}
+.box {
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+}
+#box-red{
+    background-color: red;
+}
+#box-orange{
+    background-color: orange;
+}
+#box-yellow{
+    background-color: yellow ;
+}
+#box-green{
+    background-color: green;
+}
+#box-blue{
+    background-color: blue;
+}
+#box-violet{
+    background-color: violet;
+}
