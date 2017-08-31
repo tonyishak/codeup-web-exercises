@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <h1 id="title">
+        Did we really land on the Moon?
+    </h1>
+    <h2 id="answer">
+        I don't think so.
+    </h2>
+    <h2 id="answer1">
+        Our government lies about everything.
+    </h2>
+    <p>
+        Here are a few reasons why I think so.
+    </p>
+    <ul>
+        <li class="reason">There is no way anything living can move through the Van Allen radiation belt.</li>
+        <li class="reason">Moon landing has many inexplicable anomalies in film and otherwise.</li>
+        <li class="reason">We haven't been back to the moon since the first time. That makes no sense</li>
+        <li class="reason">Nasa is full of shit</li>
+    </ul>
+    <div>
+        More people need to wake up to these deceptions.
+    </div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+</script>
+<script>
+    "use strict"
+    var title = $('#title').html();
+    alert(title);
+    var answer = $('#answer').html();
+    alert(answer);
+    (function() {
+        $("li").css("font-size", "20px")
+        $("h1, p, li").css("background-color", "blue")
+        alert($("h1").text());
+        alert($("h1").html());
+    })();
+</script>
+</body>
+</html>
