@@ -32,16 +32,28 @@
 </script>
 <script>
     "use strict"
-    var title = $('#title').html();
-    alert(title);
-    var answer = $('#answer').html();
-    alert(answer);
-    (function() {
-        $("li").css("font-size", "20px")
-        $("h1, p, li").css("background-color", "blue")
-        alert($("h1").text());
-        alert($("h1").html());
-    })();
+//    var title = $('#title').html();
+//    alert(title);
+//    var answer = $('#answer').html();
+//    alert(answer);
+//    (function() {
+//        $("li").css("font-size", "20px")
+//        $("h1, p, li").css("background-color", "blue")
+//        alert($("h1").text());
+//        alert($("h1").html());
+//    })();
+    var h1 = $('h1');
+    $(h1).click(function () {
+        $(this).css("background-color", "blue");
+    })
+    var p = $('p');
+    $(p).click(function(){
+        $(this).css("font-size", "18px");
+    })
+    var li = $('li');
+    $(li).hover(function () {
+        $(this).css("color", "red");
+    })
 </script>
 </body>
 </html>
